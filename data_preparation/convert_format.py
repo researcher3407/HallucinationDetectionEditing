@@ -15,12 +15,12 @@ def parse_args():
         "--input_file",
         type=str,
         default=None,
-        help="Input .jsonl file with title and input fields to generate training data")
+        help="Input .csv file")
     parser.add_argument(
         "--output_file",
         type=str,
         default=None,
-        help="Output .json file")
+        help="Output .csv file")
     args = parser.parse_args()
     return args
 
