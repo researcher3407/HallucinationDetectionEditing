@@ -13,9 +13,7 @@ This is a repo for our hallucination detection and editing work in the finance d
 3. [Detection Evaluation](#fine-grained-detection)
 2. [Editing Evaluation](#factscore)
 
-```
 ## Data Preparation
-```
 
 ### Step 1: Error Insertion
 
@@ -54,9 +52,8 @@ python convert_format.py \
 --output_file {output_file_path} \
 ```
 
-```
 ## Inference
-```
+
 ### Step 1: Model Inference
 
 We saved the fine-tuned Phi4 model in the checkpoint_dir. We run inference on the input_file and save the predicted completion in output_file
