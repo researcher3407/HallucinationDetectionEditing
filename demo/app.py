@@ -131,7 +131,7 @@ with col2:
     lm_output = """
 The change in fixed assets not yet in service from 2018 to 2019 was an increase of $1,280,500 ($5,836,000 - $4,657,000).
 """
-    st.text_area("", lm_output, height=35)
+    st.text_area("", lm_output, height=80)
     
     st.subheader("Edited Version")
     edited_output = """
@@ -164,7 +164,7 @@ with col2:
     lm_output2 = """
 The respective accrued interest in 2018 and 2019 are $1,598 and $163. The accrued expenses in 2019 were $5,000 higher than in 2018.
 """
-    st.text_area("", lm_output2, height=35)
+    st.text_area("", lm_output2, height=80)
     
     st.subheader("Edited Version")
     edited_output2 = """
