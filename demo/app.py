@@ -171,3 +171,4 @@ The respective accrued interest in 2018 and 2019 are $1,598 and $163. The accrue
 The respective accrued interest in 2018 and 2019 are $1,598 and $163. <contradictory><delete>The accrued expenses in 2019 were $5,000 higher than in 2018.</delete></contradictory>
 """
     st.markdown(f'<div class="edited-text">{process_edited_text(edited_output2)}</div>', unsafe_allow_html=True)
+
